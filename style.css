@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+nav {
+    width: 100vw;
+    height: 5vh;
+    background-color: #2F3235;
+}
+
+header {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/main_image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+}
+
+header > h1 {
+    font-family: 'Times New Roman';
+    font-size: 58px;
+    color: #000000;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.button__main {
+    background-color: #F44336;
+    padding: 16px 40px 16px 40px;
+    border-radius: 6px;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-family: 'Times New Roman';
+}
+
+.offers {
+    width: 100vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.offers > h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+    margin: 0;
+}
+
+.offers__articles {
+    display: flex;
+    justify-content: center;
+}
+
+.offers__articles > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    width: 15vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-align: center;
+}
+
+.offers__articles > article > h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #616161;
+    font-size: 21px;
+    margin: 0;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+}
+
+.offers__articles > article > p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #616161;
+    font-size: 17px;
+    line-height: 28.9px;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    width: 100vw;
+    height: 55vh;
+}
+
+.menu > section {
+    width: 25vw;
+    display: flex;
+    padding-top: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.menu > section > a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.bg_img_1 {
+    background-image: url("./images/45150-testoviny-prev.jpg.png");
+}
+.bg_img_2 {
+    background-image: url("./images/45151-pizza-prev.jpg.png");
+}
+.bg_img_3 {
+    background-image: url("./images/45153-alcoholic-bar-beverage-blur-338713-prev.jpg.png");
+}
+.bg_img_4 {
+    background-image: url("./images/45152-JL_2-prev.jpg.png");
+}
+
+.reviews {
+    width: 100vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2EC;
+}
+
+.reviews > h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+    margin: 0;
+}
+
+.reviews__articles {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews__articles > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 27vw;
+    padding-top: 2vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-align: center;
+    margin-top: 3vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    background-color: #FFFFFF;
+}
+
+.reviews__articles > article > h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #616161;
+    font-size: 22px;
+    margin: 0;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+
+.reviews__articles > article > p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #898787;
+    font-size: 16px;
+    line-height: 28.9px;
+    margin: 0;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 3vh;
+}
+
+.resume {
+    display: flex;
+    width: 100vw;
+}
+
+.resume > article {
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 4vw;
+    padding-right: 5vw;
+}
+
+.resume > article > h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+    margin: 0;
+}
+
+.resume > article > h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+    margin: 0;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+}
+
+.resume > article > p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #616161;
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 5vh;
+}
+
+.resume > article > p > a {
+    color: #343434;
+}
+
+.resume > img {
+    width: 50vw;
+}
+
+footer {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: start;
+    background-color: #2F3235;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+
+footer > section { /* .contacts, .workdays, .apps { */
+    display: flex;
+    width: 25vw;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+footer > section > h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 3vh;
+    color: #FFFFFF;
+}
+
+.contact, .worktime {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    line-height: 28.9px;
+}
+
+.contact > img, .worktime > img {
+    height: 17px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.contact > a, .worktime > p, .workdays > p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.days {
+    width: 55px;
+}
+
+.workdays > p {
+    line-height: 28.9px;
+    padding-top: 5vh;
+}
+
+.button__google {
+    width: 175px;
+    height: 48px;
+    border-radius: 6px;
+    border: 0;
+    background-image: url("./images/googlePlay.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 4vh;
+    background-color: #000000;
+}
+
+.button__apple {
+    width: 175px;
+    height: 48px;
+    border-radius: 6px;
+    border: 0;
+    background-image: url("./images/appStore.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+}
